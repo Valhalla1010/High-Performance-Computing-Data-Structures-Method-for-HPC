@@ -19,11 +19,11 @@ Implement a separate code to test the assertion above using the pytest framework
 
 How would you implement the unit test with the possibility of having a different number of iterations and grid points? Implementation is optional.
 
-#*****************************************************************#
+#********************************************************************************************#
 
 # Exercise 2 - Python DGEMM Benchmark Operation
 
-The **BLAS** library is a critical library for HPC. **DGEMM** is an important computational kernel, part of the **BLAS** library, solving the problem **$$ C = C + A * B $$**, where **A, B and C** are matrices of size **NxN**.  In this exercise, we will use matrices with double precision values (that is why we have <ins>D in DGEMM</ins>). The three matrices can be initialized as you think it is convenient, e.g., fixed or random values.
+The **BLAS** library is a critical library for HPC. **DGEMM** is an important computational kernel, part of the **BLAS** library, solving the problem $$ C = C + A * B $$, where **A, B and C** are matrices of size **NxN**.  In this exercise, we will use matrices with double precision values (that is why we have <ins>D in DGEMM</ins>). The three matrices can be initialized as you think it is convenient, e.g., fixed or random values.
 
 The <ins>pseudo-code</ins> in <ins>C-style (no Python)</ins> for the DGEMM is the following:
 
@@ -63,7 +63,7 @@ Using the timing information and the number of operations for the DGEMM, calcula
 Compare the performance results with the numpy matmul operation (that uses a BLAS library). 
 
 
-#*****************************************************************#
+#*******************************************************************************************#
 
 
 # Exercise 3 - Experiment with the Python Debugger
