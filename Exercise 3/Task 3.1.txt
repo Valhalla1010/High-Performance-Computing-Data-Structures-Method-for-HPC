@@ -1,0 +1,25 @@
+What are the advantages of using a debugger? 
+
+Advantages of Using a Debugger are: 
+
+    1. Explore the state of a running program: we can inspect variables, running program execution and and understand program
+    behavior in real-time.
+
+    2. Test implementation code before applying it: Debugger allow we to experiment with interactively.
+
+    3. Follow the program's execution logic: Help to understand how code flows and where issies arise.
+
+    4. Debuggers are more efficient than using print() statements: Debuggers are very powerful tools and the can speed up the 
+       debugging process a lot faster. 
+
+What challenges did you find in using the pdb debugger, if any?
+
+    1. The use of pdb can make code messy if too many manual breakpoints and print statements are added.
+
+    2. With using s(tep) can lead into many layers of function calls, making it challenging to track the desired code execution.
+
+    3. Running a program through a debugger can introduce performance overhead, and making it slows down execution which may not 
+       be suitable time-sensitive application.
+
+    4. Modern IDEs such as PyChram or VSCode provide graphical debuggung tool with breakpoints, variable inspection and call  
+       stack visualization making them easier to use "pdb".
