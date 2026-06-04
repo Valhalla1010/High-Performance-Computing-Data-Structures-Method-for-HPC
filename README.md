@@ -6,7 +6,7 @@ As part of this exercise, we ask you to experiment with the pytest framework use
 
 In the Julia Set Code, we have a simple assertion to check the correctness of the code.
 
-    - This sum is expected for a $$ {1000}^2 $$ grid with $$ 300 $$ iterations
+    - This sum is expected for a 1000^{2} grid with 300 iterations
     -It It ensures that our code evolves exactly as we'd intended to assert **sum(output) == 33219980**
 
 In this exercise, we'd like to ask you to develop a test unit to check this assertion using the pytest framework.
@@ -23,7 +23,7 @@ How would you implement the unit test with the possibility of having a different
 
 # Exercise 2 - Python DGEMM Benchmark Operation
 
-The **BLAS** library is a critical library for HPC. **DGEMM** is an important computational kernel, part of the **BLAS** library, solving the problem $$ C = C + A * B $$, where **A, B and C** are matrices of size **NxN**.  In this exercise, we will use matrices with double precision values (that is why we have <ins>D in DGEMM</ins>). The three matrices can be initialized as you think it is convenient, e.g., fixed or random values.
+The **BLAS** library is a critical library for HPC. **DGEMM** is an important computational kernel, part of the **BLAS** library, solving the problem **C = C + A * B**, where **A, B and C** are matrices of size **NxN**.  In this exercise, we will use matrices with double precision values (that is why we have <ins>D in DGEMM</ins>). The three matrices can be initialized as you think it is convenient, e.g., fixed or random values.
 
 The <ins>pseudo-code</ins> in <ins>C-style (no Python)</ins> for the DGEMM is the following:
 
